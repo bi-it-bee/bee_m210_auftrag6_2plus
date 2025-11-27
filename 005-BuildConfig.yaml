@@ -25,6 +25,7 @@ spec:
     type: Git
     git:
       uri: 'https://github.com/bi-it-bee/bee_m210_auftrag6_2plus.git'
+    contextDir: /app
     sourceSecret:
       name: html-openshift-app-github
   triggers:
